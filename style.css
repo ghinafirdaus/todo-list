@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    font-size: 1.25rem;
+}
+
+h1 {
+    color: paleturquoise;
+    text-shadow: 5px 3px 1px #ffc0cb;
+	font-size: 5rem;
+	text-align: center;
+	margin: 0; 
+    font-family: 'Lobster', cursive;
+}
+
+#date {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 0.5rem 0 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid paleturquoise;
+}
+
+h3 {
+   text-align: center;
+}
+
+svg {
+    font-size: 1.15rem;
+    padding: 0;
+    margin: 0;
+}
+
+.input{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0;
+    transition: 0.5s;
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+.inputTodo{
+    background: rgba(238, 235, 235, 0.5);
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 40%;
+    margin: 0.25rem;
+}
+
+.addBtn {
+    color: white;
+    border: none;
+    background-color: pink;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 11px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addBtn:hover{
+    color: white;
+	background-color: rgba(255, 192, 203, 0.5);
+}
+
+.list{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.item{
+    padding: 0.5rem;
+	border-bottom: 3px solid paleturquoise;
+    margin: 0.25rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item_input{
+    background: none;
+    padding: 0.2rem;
+	border: none;
+    width: 245px;
+    border-left: 2px solid pink;
+    border-right: 2px solid pink;
+}
+
+.edit{
+	background: none;
+	outline: none;
+    border: none;
+    margin: 0 0.5rem;
+	color: green;
+	cursor: pointer;
+}
+
+.remove{
+	background: none;
+	outline: none;
+	border: none;
+    color: rgb(202, 2, 2);
+	cursor: pointer;
+}
+
+.doneTask{
+    color: purple;
+    margin: 0 0.5rem 0 0;
+    transform: scale(1.25);
+}
